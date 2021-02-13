@@ -70,7 +70,7 @@ def main():
             time.sleep(300)
 
         except Exception as e:
-            logging.exception(f"Бот столкнулся с ошибкой")
+            logging.exception("Бот столкнулся с ошибкой")
             send_message(e, bot_client)
             time.sleep(5)
 
